@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo 'Установка тем'
-aurman -S osx-arc-shadow breeze-obsidian-cursor-theme papirus-maia-icon-theme-git --noconfirm
+aurman -S osx-arc-shadow xcursor-breeze-serie-obsidian papirus-maia-icon-theme-git --noconfirm
 
 echo 'Создаем нужные директории'
 sudo pacman -S xdg-user-dirs
